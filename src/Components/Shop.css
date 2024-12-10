@@ -134,6 +134,10 @@
     .productdescription{
         font-size: 10px;
     }
+
+    .productfs{
+        overflow: hidden;
+    }
     
     
     
@@ -143,6 +147,9 @@
         height: 5vh;
         border-bottom-left-radius:3px ;
         border-bottom-right-radius:3px ;
+        border-top-left-radius:0 ;
+        border-top-right-radius:0 ;
+        overflow: hidden;
     }
 
     .productcardbackwhite{

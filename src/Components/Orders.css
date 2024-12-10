@@ -17,14 +17,18 @@
 .order_item_description {
     border-bottom: 3px solid rgb(225, 225, 225);
     width: 33%;
+    font-weight: bold;
 
 }
 
 .quan_box1 {
     border-bottom: 3px solid rgb(225, 225, 225);
     width: 33%;
+    
 
 }
+
+
 
 .actionbuttoncontainer {
     border-bottom: 3px solid rgb(225, 225, 225);
@@ -169,6 +173,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: white;
 }
 
+
 @media(max-width:800px){
 
     .circularcontainer1 {
@@ -202,6 +207,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     .cancelbutton{
         font-size: 10px;
+    }
+
+    .order_item_description{
+        font-size: 13px;
+        font-weight: bold;
     }
 
 }
