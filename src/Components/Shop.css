@@ -122,7 +122,8 @@
     }
 
     .outer_shop_container{
-        min-height: 120vh;
+        height: 100%;
+
     }
 
     .productitemname{

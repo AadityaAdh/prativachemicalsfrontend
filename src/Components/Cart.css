@@ -58,16 +58,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 
 }
 .imleft{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .imright{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8{

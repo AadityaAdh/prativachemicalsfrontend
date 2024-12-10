@@ -75,6 +75,10 @@
     
 }
 
+.box_login p{
+    overflow: hidden;
+}
+
 .userphoto {
     height: 40px;
     width: 40px;

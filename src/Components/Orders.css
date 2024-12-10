@@ -194,4 +194,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         width: 60vh;
     }
 
+    .quan_box1{
+        width: 5%;
+    }
+    .updatebutton{
+        font-size: 10px;
+    }
+    .cancelbutton{
+        font-size: 10px;
+    }
+
 }
