@@ -34,6 +34,7 @@
     
     
 }
+
 .quantity_box{
     display: flex;
     align-items: center;
@@ -51,31 +52,35 @@
     background-color: white;
     border: 3px solid black;
     width: 40px;
-    height: 34px; 
+    height: 35px; 
     font-size: large;
     border-right: none;
     border-left: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    
+
+    
     
 
 }
 .imleft{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: none;
 }
 .imright{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -113,4 +118,65 @@
 
 .i8{
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .description {
+        font-size: 1.2em;
+    }
+
+    .cart_img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .item_description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    .quantity_box button {
+        width: 25px;
+        height: 25px;
+        font-size: small;
+
+    }
+    .quantity_box p{
+        width: 25px;
+        height: 20px;
+        font-size: small;
+        
+    }
+
+    .cart_total {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart_checkout {
+        width: 100%;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .description {
+        font-size: 1em;
+    }
+
+    .cart_table {
+        font-size: 0.9em;
+    }
+
+    .cart_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cart_checkout {
+        height: 40px;
+        font-size: small;
+    }
 }
