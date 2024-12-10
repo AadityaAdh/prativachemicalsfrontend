@@ -1,0 +1,38 @@
+.adminnavbarcontainer{
+    background-color: black;
+    width: 100%;
+    height: 6vh;
+    
+    color: white;
+}
+
+.adminnavbarcontainer ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.adminnavbarcontainer ul li{
+    padding-right: 15vw;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.containeradminhomecontent{
+    background-image: url("../../public/wall1.jpg");
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containeradminhomecontent p{
+    font-size: 40px;
+    color: pink;
+
+}
+

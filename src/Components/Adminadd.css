@@ -1,0 +1,95 @@
+/* General Styles */
+
+
+/* Admin Add Container */
+.adminaddcontainer {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("../../public/wall1.jpg");
+
+    height: 96vh;
+}
+
+/* Form Styles */
+.adminaddform {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.adminaddform label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.adminaddform input[type="text"],
+.adminaddform textarea,
+.adminaddform select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.adminaddform input[type="text"]:focus,
+.adminaddform textarea:focus,
+.adminaddform select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.adminaddform textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Submit Button */
+.adminaddform button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.adminaddform button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .adminaddform {
+        padding: 15px 20px;
+    }
+
+    .adminaddform label {
+        font-size: 14px;
+    }
+
+    .adminaddform input[type="text"],
+    .adminaddform textarea,
+    .adminaddform select,
+    .adminaddform button {
+        font-size: 14px;
+    }
+}

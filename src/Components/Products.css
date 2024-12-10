@@ -1,0 +1,215 @@
+.xyz {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border: none;
+    margin: 0;
+    overflow: hidden;
+    height: 78vh;
+}
+
+.productx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
+
+
+}
+
+.divl {
+    height: 100%;
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.itemx {
+    
+    width: 80%;
+
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.divr {
+    height: 100%;
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cardx {
+    
+    
+    width: 20vw;
+    height: 30vw;
+    
+    
+    margin: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.itemphotos {
+    height: 22vh;
+    width: 18vw;
+    margin-left: 18px;
+    border-radius: 30px;
+    
+}
+
+.pricestarcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftrighticons {
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    font-size: large;
+}
+
+.makewhite {
+    color: white;
+    font-size: 30px;
+}
+
+.makemegray {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Berkshire Swash", serif;
+}
+.cardbackwhite{
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 100%;
+}
+
+.carddescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Merienda", cursive;
+    font-size: 12px;
+}
+
+.fs {
+    
+    margin-top: auto;
+}
+
+.addtocart {
+    background: #f4b642;
+    color: black;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    
+    height: 50px;
+    font-size: large;
+    font-weight: bolder;
+    
+    position: relative;
+    bottom: 0px;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    font-family: "Caveat", cursive;
+
+    
+    
+    
+}
+
+.addtocart:hover{
+    cursor: pointer;
+}
+
+.useallrem{
+    height: 100%;
+    background-color: transparent;
+}
+
+
+.makemepink{
+    background-color: pink;
+}
+
+@media(max-width:800px){
+
+    .xyz{
+        height: 78vh;
+    }
+
+    .makemegray{
+        font-size: 10px;
+    }
+
+    .carddescription{
+        font-size: 7px;
+    }
+    
+    
+    
+    
+    .addtocart{
+        font-size: 10px;
+        height: 5vh;
+        border-bottom-left-radius:3px ;
+        border-bottom-right-radius:3px ;
+    }
+
+    .cardbackwhite{
+        
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+        height: 70%;
+        
+    }
+
+    .starscontainer{
+        font-size: 8px;
+    }
+    .cardx{
+        
+        border-radius: 12px;
+        height: auto;
+        width: 30vw;
+    }
+    .itemphotos {
+        height: 10vh;
+        width: 20vw;
+        margin-left: 1px;
+        border-radius: 3px;
+        
+    }
+    .pricestarcontainer{
+        font-size: 9px;
+    }
+
+
+}

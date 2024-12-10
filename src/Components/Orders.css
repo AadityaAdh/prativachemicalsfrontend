@@ -1,0 +1,197 @@
+.orderscontainer {
+    min-height: 69vh;
+}
+
+
+
+.ordertitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order_table {
+    width: 100%;
+}
+
+.order_item_description {
+    border-bottom: 3px solid rgb(225, 225, 225);
+    width: 33%;
+
+}
+
+.quan_box1 {
+    border-bottom: 3px solid rgb(225, 225, 225);
+    width: 33%;
+
+}
+
+.actionbuttoncontainer {
+    border-bottom: 3px solid rgb(225, 225, 225);
+
+
+}
+
+.updatebutton {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+
+
+
+}
+
+.cancelbutton {
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+
+}
+
+.circularcontainer1 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 65vh;
+    left: 12vw;
+    /* From https://css.glass */
+    background: rgba(255, 243, 243, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 243, 243, 0.3);
+    border-radius: 300px;
+    z-index: 100;
+}
+
+.circularcontainer2 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 8vh;
+    left: 70vw;
+    /* From https://css.glass */
+    background: rgba(255, 243, 243, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 243, 243, 0.3);
+    border-radius: 300px;
+    z-index: 100;
+}
+
+
+
+.updatecontainer {
+    
+
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.insideupdatecontainer {
+    height: 50%;
+    width: 50%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+
+}
+
+
+.leftsideupdate {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.leftsideupdate img{
+    height: 100px;
+    width: 100px;
+    border-radius: 300px;
+}
+
+.rightsideupdate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+.rightsideupdate input{
+    background-color: transparent;
+    border: none; /* Remove the border */
+    outline: none;
+    border-bottom: 3px solid #000000;
+    height: 30px;
+    font-size: large;
+}
+.rightsideupdate button{
+    
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:800px){
+
+    .circularcontainer1 {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 70vh;
+        left: 12vw;
+        
+    }
+
+    .circularcontainer2 {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 18vh;
+        left: 70vw;
+        
+    }
+
+    .insideupdatecontainer{
+        height: 60vh;
+        width: 60vh;
+    }
+
+}

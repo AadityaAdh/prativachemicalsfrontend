@@ -1,0 +1,175 @@
+.outer_shop_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.shop_container {
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 products per row */
+    row-gap: 20px;
+    column-gap: 100px;
+    
+    
+}
+
+
+.horizontal_card {
+    
+
+    width: 30vw;
+    height: 40vw;
+    
+    
+    margin: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.horizontal_card:hover{
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.shop_product_img {
+    height: 32vh;
+    width: 28vw;
+    margin-left: 18px;
+    border-radius: 30px;
+}
+.shop_description{
+    font-size: x-large;
+}
+.shop_addtocart{
+    background: #f4b642;
+    color: black;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    
+    height: 50px;
+    font-size: large;
+    font-weight: bolder;
+    
+    position: relative;
+    bottom: 0px;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    font-family: "Caveat", cursive;
+    
+}
+.productfs{
+    margin-top: auto;
+}
+
+.productcardbackwhite{
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 100%;
+}
+
+.productitemname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Berkshire Swash", serif;
+  font-optical-sizing: auto;
+
+}
+
+.productdescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Merienda", cursive;
+}
+
+.productpricestarcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productpricestarcontainer p{
+    font-size: xx-large;
+}
+
+
+
+
+
+@media(max-width:800px){
+
+
+    .shop_container {
+        
+        row-gap: 20px;
+        column-gap: 10px;
+        
+        
+    }
+
+    .outer_shop_container{
+        height: 120vh;
+    }
+
+    .productitemname{
+        font-size: 15px;
+        
+    }
+
+    .productdescription{
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    .shop_addtocart{
+        font-size: 10px;
+        height: 5vh;
+        border-bottom-left-radius:3px ;
+        border-bottom-right-radius:3px ;
+    }
+
+    .productcardbackwhite{
+        
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+        height: 100%;
+        
+    }
+
+    .productstarscontainer{
+        font-size: 8px;
+    }
+    .horizontal_card{
+        
+        border-radius: 12px;
+        height: auto;
+        width: 45vw;
+    }
+    .shop_product_img {
+        height: 15vh;
+        width: 45vw;
+        margin-left: 1px;
+        border-radius: 3px;
+        
+    }
+    .productpricestarcontainer{
+        font-size: 10px;
+    }
+
+
+}

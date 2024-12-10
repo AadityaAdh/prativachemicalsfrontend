@@ -1,0 +1,32 @@
+.ending_container{
+    background-color: black;
+    font-size: large;
+}
+.ending_table{
+    width:100%;
+    background-color:black;
+    color:white;
+    
+}
+.ending_end{
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.underline th p{
+    width: 98%;
+    border-bottom: 2px solid white;
+    border-width: 50%;
+}
+
+.ending_table tr th a{
+    text-decoration: none;
+    color: white;
+}
+
+.endingaboutusth:hover{
+    cursor: pointer;
+
+}

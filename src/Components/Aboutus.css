@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+
+.aboutcontainer{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+}
+
+.wco {
+    scroll-snap-align: start;
+    background-image: linear-gradient(to bottom right, white 50%, rgb(90, 170, 134) 50%);
+    display: flex;
+    align-items: center;   /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;  /* Apply font to the container */
+}
+
+.wco img {
+    height: 80vh;
+    width: 35vw;
+    object-fit: cover;  /* Ensures the image covers the set dimensions */
+    border-radius: 15px; /* Adds a slight rounding to the image corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+}
+
+.wco p {
+    max-width: 40vw;    
+    padding: 20px;
+    font-size: 18px;    /* General text size */
+    font-weight: 400;   
+    line-height: 1.6;   
+    color: #333;        
+}
+
+/* Styling for your name to make it prominent */
+.wco p::before {
+    
+    display: block;
+    font-size: 2.5em;
+    font-weight: 800;
+    background: linear-gradient(to right, #43ddeb, #b83ed1); /* Gradient for your name */
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.wco p strong {
+    font-size: 1.2em;
+    color: rgb(87, 42, 97);  /* Accent color for keywords */
+}
+
+.aone::before{
+    content: "Prativa Chemicals";
+}
+
+.atwo::before{
+    content: "Bijay Bhattrai";
+}
+
+.athree::before{
+    content: "Aaditya Adhikari";
+}
+
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .wco {
+        flex-direction: column;
+        padding: 4vw;
+        text-align: center;
+    }
+
+    .wco img {
+        height: 40vh;
+        width: 70vw;
+        margin-bottom: 2vh;
+    }
+
+    .wco p {
+        max-width: 90vw;
+        font-size: 2.5vw;
+    }
+
+    .wco p::before {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .wco img {
+        height: 35vh;
+        width: 80vw;
+    }
+
+    .wco p {
+        font-size: 2.5vw;
+    }
+
+    .wco p::before {
+        font-size: 7vw;
+    }
+
+    
+}

@@ -1,0 +1,9 @@
+.adminorderscontainer{
+    background-color: rgb(77, 154, 171);
+    color: white;
+    height: 94vh;
+}
+
+.adminorderscontainer p{
+    font-size: larger;
+}
