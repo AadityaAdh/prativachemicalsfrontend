@@ -136,6 +136,8 @@
     
     position: relative;
     bottom: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius:30px ;
     border-bottom-right-radius:30px ;
     font-family: "Caveat", cursive;
