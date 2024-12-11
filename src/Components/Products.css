@@ -121,6 +121,7 @@
 .fs {
     
     margin-top: auto;
+    overflow: hidden;
 }
 
 .addtocart {

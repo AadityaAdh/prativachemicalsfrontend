@@ -23,17 +23,17 @@ export default function Products(props) {
     fetchproducts()
   },[])
   const [afterthisindex, setafterthisindex] = useState(0);
-  const [beforethisindex, setbeforethisindex] = useState(2);
+  const [beforethisindex, setbeforethisindex] = useState(1);
   function subtractby1() {
     const newafter = afterthisindex === 0 ? afterthisindex : afterthisindex - 1;
-    const newbefore = beforethisindex === 2 ? beforethisindex : beforethisindex - 1;
+    const newbefore = beforethisindex === 1 ? beforethisindex : beforethisindex - 1;
     setafterthisindex(newafter);
     setbeforethisindex(newbefore);
     
 
   }
   function addby1() {
-    const newafter = afterthisindex === availableProducts.length - 3 ? afterthisindex : afterthisindex + 1;
+    const newafter = afterthisindex === availableProducts.length - 2 ? afterthisindex : afterthisindex + 1;
     const newbefore = beforethisindex === availableProducts.length - 1 ? beforethisindex : beforethisindex + 1;
     setafterthisindex(newafter);
     setbeforethisindex(newbefore);
