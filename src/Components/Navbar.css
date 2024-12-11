@@ -155,6 +155,7 @@
     
     
     
+    
 }
 
 .popup-content{
@@ -164,6 +165,7 @@
     position: absolute;
     top: 100px;
     left: 30vw;
+    
 }
 .ram {
 width: 320px;
@@ -177,6 +179,7 @@ transform: translate(-50%, -50%);
 box-sizing: border-box;
 padding: 70px 30px;
 font-family: sans-serif;
+overflow: hidden;
 }
 
 .avatar {

@@ -66,8 +66,10 @@
     border-bottom-right-radius:30px ;
     font-family: "Caveat", cursive;
     
+    
 }
 .productfs{
+    overflow: hidden;
     margin-top: auto;
 }
 
@@ -76,6 +78,7 @@
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     height: 100%;
+    overflow: hidden;
 }
 
 .productitemname{
